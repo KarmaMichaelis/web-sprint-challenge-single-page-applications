@@ -1,18 +1,29 @@
-import React from "react";
-import {v4 as uuid} from 'uuid'
+import React,{useState} from "react";
+//import {v4 as uuid} from 'uuid'
 import Pizza from './Components/Pizza'
 
-const App = () => {
+const App = (props) => {
+  // const [pizza,setPizza]=useState('')
+  
+  // const onInputChange=event=>{
+  //   const {pizzaType}=event.target.value
+    
+  //     setPizza({
+  //       ...pizza,
+        
+  //     })
+    
+  // }
   
   return (
     <>
      <div>
      <h1>Food For Code</h1>
-      <img src='Assets/Pizza.jpg' alt=' pizza'/>
+      
       
       <Pizza 
       //values={formValues} 
-      //onInputChange={onInputChange}
+      //onChange={onInputChange}
       //onSubmit={onSubmit}
       />
      </div>

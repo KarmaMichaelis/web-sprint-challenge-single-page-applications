@@ -16,13 +16,30 @@ export default function Pizza(props){
     return(
         <form>
             <div className='food contaner'>
+            <img src='Assets/Pizza.jpg' alt=' pizza'/>
 
                 <h2>Build Your Own Pizza</h2>
                 <div className='Food Form'>
                         <h2>Choice of Size</h2>
                         <p>Required</p>
                         <label>
-                            <input type='text'/>
+                            
+                            <select
+                                //name='size'
+                                //value={values.size}
+                                onChange={onInputChange}
+                            
+                            >
+                                <option value=''>---Select Size---</option>
+                                <option value='Large'>Large</option>
+                                <option value='Medium'>Medium</option>
+                                <option value='Small'>Small</option>
+                                <option value='Slice'>Slice</option>
+
+
+
+                            </select>
+
 
 
 
