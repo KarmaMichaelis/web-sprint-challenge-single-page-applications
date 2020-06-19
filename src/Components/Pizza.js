@@ -39,11 +39,52 @@ export default function Pizza(props){
 
 
                             </select>
+                          </label>
+                          <h2>Choice of Sauce</h2>
+                            <p>Required</p>
+                          <label>
+                          
+                            Original Red&nbsp;
+                            <input
+                                type='radio'
+                                onChange={onInputChange}
+                                //checked={values.topping==='Pepperoni'}
+                                value='Original Red'
+                            
+                            
+                            /><br/>
+                            BBQ&nbsp;
+                            <input
+                                type='radio'
+                                onChange={onInputChange}
+                                //checked={values.topping==='Pepperoni'}
+                                value='BBQ'
+                            
+                            
+                            /><br/>
+                            Garlic Ranch&nbsp;
+                            <input
+                                type='radio'
+                                onChange={onInputChange}
+                                //checked={values.topping==='Pepperoni'}
+                                value='Garlic Ranch'
+                            
+                            
+                            /><br/>
+                            Spinach Alfredo&nbsp;
+                            <input
+                                type='radio'
+                                onChange={onInputChange}
+                                //checked={values.topping==='Pepperoni'}
+                                value='Spinach Alfredo'
+                            
+                            
+                            />
 
 
 
 
-                        </label>
+                          </label>
 
 
 
