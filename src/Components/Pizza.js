@@ -1,18 +1,17 @@
 import React from 'react'
 
 
-const Pizza=()=>{
 
+
+
+
+export default function Pizza(props){
+    //console.log('hello from the pizza component')
+    const{
+        values,
+        onInputChange,
+        OnSubmit,
+
+    }=props
     return null
 }
-
-
-
-
-
-
-
-
-
-
-export default Pizza
